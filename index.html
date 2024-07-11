@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <main class="center-contenedor">
+    <div class="d-grid">
+      <form class="formulario">
+        <h1 class="formulario__titulo">Stay updated!</h1>
+        <p class="formulario__parrafo">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="lista">
+          <img src="assets/images/icon-list.svg" alt="" class="lista__icon">
+          <li class="lista__parrafo">Product discovery and building what matters</li>
+        </ul>
+        <ul class="lista">
+          <img src="assets/images/icon-list.svg" alt="" class="lista__icon">
+          <li class="lista__parrafo">Measuring to ensure updates are a success</li>
+        </ul>
+        <ul class="lista">
+          <img src="assets/images/icon-list.svg" alt="" class="lista__icon">
+          <li class="lista__parrafo">And much more!</li>
+        </ul>
+
+        <div class="labelanderror">
+          <label class="formulario__label" for="email">Email address:</label>
+          <p class="error">Valid Email Required</p>
+        </div>
+        <input class="formulario__input formulario__input--texto" type="email" placeholder="email@company.com">
+
+        <input class="formulario__input formulario__input--boton" type="button" value="Subscribe to monthly newsletter">
+      </form>
+      <section class="d-grid__section2">
+        <img class="image__pc" src="assets/images/illustration-sign-up-desktop.svg" alt="">
+        <img class="image__movil" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+      </section>
+    </div>
+  </main>
+  <section class="modal center-contenedor">
+    <div class="modal-contenedor">
+      <img class="modal-contenedor__icon" src="assets/images/icon-success.svg" alt="icon modal">
+      <h1 class="modal-contenedor__titulo">Thanks for subscribing!</h1>
+      <p class="modal-contenedor__parrafo">A confirmation email has been sent to <span>ash@loremcompany.com.</span>
+        Please open it and click the button inside to confirm your subscription.</p>
+      <button class="modal-contenedor__boton">Dismiss message</button>
+    </div>
+  </section>
+
+
+  <!-- 
+
+
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com.
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message 
+  -->
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="js/app.js"></script>
+</body>
+
+
+</html>
